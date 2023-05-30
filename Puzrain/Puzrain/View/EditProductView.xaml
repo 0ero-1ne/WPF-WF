@@ -1,0 +1,100 @@
+﻿<UserControl x:Class="Puzrain.View.EditProductView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Puzrain.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="420" d:DesignWidth="900"
+             Background="White">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Puzrain;component/Style/Label.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Border Grid.Column="0"
+                Grid.Row="1"
+                Margin="10">
+        <ScrollViewer ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                          ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_TitleLabel}"></Label>
+                <Border Style="{DynamicResource FormBorderTextBox}">
+                    <TextBox Style="{StaticResource FormTextBox}"
+                             Text="{Binding Title}">
+                    </TextBox>
+                </Border>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_DescriptionLabel}">
+                </Label>
+                <Border Style="{DynamicResource FormBorderTextBox}" Height="100">
+                    <TextBox Style="{StaticResource FormTextBox}"
+                             Text="{Binding Description}"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True">
+                    </TextBox>
+                </Border>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_CategoryLabel}"></Label>
+                <Border Style="{DynamicResource FormBorderTextBox}">
+                    <TextBox Style="{StaticResource FormTextBox}"
+                             Text="{Binding Category}"></TextBox>
+                </Border>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_PriceLabel}"></Label>
+                <Border Style="{DynamicResource FormBorderTextBox}">
+                    <TextBox Style="{StaticResource FormTextBox}"
+                             Text="{Binding Price}"></TextBox>
+                </Border>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_StockLabel}"></Label>
+                <Border Style="{DynamicResource FormBorderTextBox}">
+                    <TextBox Style="{StaticResource FormTextBox}"
+                             Text="{Binding Stock}"></TextBox>
+                </Border>
+                <Label Style="{StaticResource FormLabel}"
+                       Content="{DynamicResource add_ImageLabel}"></Label>
+                <Grid Margin="0,0,0,30">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40px" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150px"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <Border Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{DynamicResource OpenFileDialogBorder}">
+                        <Button Content="{DynamicResource add_OpenImageLabel}"
+                                FontSize="18px"
+                                Foreground="White"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Command="{Binding OpenFileDialog}">
+                        </Button>
+                    </Border>
+                    <Border Height="40px"
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Padding="20,10,0,0">
+                        <TextBlock FontSize="16px" Text="{Binding ImagePath}"></TextBlock>
+                    </Border>
+                </Grid>
+                <Border Style="{DynamicResource SaveProductBorder}">
+                    <Button Content="{DynamicResource edit_EditProductButton}"
+                            Foreground="White"
+                            Background="Transparent"
+                            FontSize="18"
+                            BorderThickness="0"
+                            FontWeight="Bold"
+                            Command="{Binding EditProduct}"/>
+                </Border>
+            </StackPanel>
+        </ScrollViewer>
+    </Border>
+</UserControl>

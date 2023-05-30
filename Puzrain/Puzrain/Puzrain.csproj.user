@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="View\AddProductView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\CatalogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\EditProductView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ProductView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\ApplicationTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\FormBorderTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\OpenFileDialogBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\ProductItemTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\NavyTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\NavyTheme\SaveProductBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\PurpleTheme\ApplicationTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\ChangeThemeButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\PurpleTheme\OpenFileDialogBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\PurpleTheme\ProductItemTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\PurpleTheme\PurpleTheme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\PurpleTheme\SaveProductBorder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Style\WindowLabel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AddProductView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CatalogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\EditProductView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ProductView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

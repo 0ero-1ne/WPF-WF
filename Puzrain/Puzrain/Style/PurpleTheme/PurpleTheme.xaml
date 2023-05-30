@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="./ApplicationTheme.xaml"/>
+        <ResourceDictionary Source="./FormBorderTextBox.xaml"/>
+        <ResourceDictionary Source="./ProductItemTemplate.xaml"/>
+        <ResourceDictionary Source="./OpenFileDialogBorder.xaml"/>
+        <ResourceDictionary Source="./SaveProductBorder.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puzrain", "Puzrain\Puzrain.csproj", "{C6C99148-C5F8-438E-82E5-8AA7D06FCF41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C99148-C5F8-438E-82E5-8AA7D06FCF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C99148-C5F8-438E-82E5-8AA7D06FCF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C99148-C5F8-438E-82E5-8AA7D06FCF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C99148-C5F8-438E-82E5-8AA7D06FCF41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21CCC7EC-6813-4C63-AADB-56D3D76A1A4A}
+	EndGlobalSection
+EndGlobal

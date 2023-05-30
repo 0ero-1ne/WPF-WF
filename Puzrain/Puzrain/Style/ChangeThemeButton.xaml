@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate x:Key="ThemeButtonTemplate" TargetType="Button">
+        <Border Background="{TemplateBinding Background}"  
+                BorderBrush="{TemplateBinding BorderBrush}"  
+                BorderThickness="{TemplateBinding BorderThickness}">
+            <Image Source="D:\ООП_Мущук\Puzrain\Puzrain\Images\logo.png" />
+        </Border>
+
+        <ControlTemplate.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Background" Value="{x:Static Brushes.Transparent}" />
+                <Setter Property="Foreground" Value="{x:Static Brushes.White}" />
+            </Trigger>
+        </ControlTemplate.Triggers>
+    </ControlTemplate>
+
+    <Style x:Key="ChangeThemeButton" TargetType="Button">
+        <Setter Property="Width" Value="60" />
+        <Setter Property="Height" Value="60" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Margin" Value="10,0,0,0" />
+        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="ForceCursor" Value="True" />
+        <Setter Property="Cursor" Value="Hand" />
+    </Style>
+</ResourceDictionary>

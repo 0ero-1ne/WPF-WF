@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="add_AddProductWindowButton">Add</v:String>
+    <v:String x:Key="add_MainWindowButton">Main</v:String>
+    <v:String x:Key="add_WindowTitle">Puzrain - add product</v:String>
+    <v:String x:Key="add_WindowLabel">Add product</v:String>
+    <v:String x:Key="add_TitleLabel">Title</v:String>
+    <v:String x:Key="add_DescriptionLabel">Description</v:String>
+    <v:String x:Key="add_CategoryLabel">Category</v:String>
+    <v:String x:Key="add_PriceLabel">Price</v:String>
+    <v:String x:Key="add_StockLabel">Stock</v:String>
+    <v:String x:Key="add_ImageLabel">Image</v:String>
+    <v:String x:Key="add_OpenImageLabel">Open</v:String>
+    <v:String x:Key="add_ImageFileLabel">Choose a file...</v:String>
+    <v:String x:Key="main_WindowLabel">Catalog</v:String>
+    <v:String x:Key="main_WindowTitle">Puzrain - puzzle shop</v:String>
+    <v:String x:Key="main_OpenProductLabel">Open</v:String>
+    <v:String x:Key="main_ProductInStockLabel">In stock</v:String>
+    <v:String x:Key="main_ProductNotInStockLabel">Not in stock</v:String>
+    <v:String x:Key="product_WindowLabel">Product</v:String>
+    <v:String x:Key="product_PriceTextBox">Price:</v:String>
+    <v:String x:Key="product_CategoryTextBox">Category:</v:String>
+    <v:String x:Key="product_StockTextBox">Stock:</v:String>
+    <v:String x:Key="edit_WindowLabel">Edit</v:String>
+    <v:String x:Key="edit_BackToProductView">Back</v:String>
+    <v:String x:Key="edit_EditProductButton">Edit</v:String>
+</ResourceDictionary>
